@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0"
+    xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginSvt</servlet-name>
+    <servlet-class>svt.LoginSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>MessageSvt</servlet-name>
+    <servlet-class>svt.MessageSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReplySvt</servlet-name>
+    <servlet-class>svt.ReplySvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RegisterSvt</servlet-name>
+    <servlet-class>svt.RegisterSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>UserSvt</servlet-name>
+    <servlet-class>svt.UserSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>PublishSvt</servlet-name>
+    <servlet-class>svt.PublishSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CommentSvt</servlet-name>
+    <servlet-class>svt.CommentSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LogoutSvt</servlet-name>
+    <servlet-class>svt.LogoutSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DelSvt</servlet-name>
+    <servlet-class>svt.DelSvt</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>editUserSvt</servlet-name>
+    <servlet-class>svt.editUserSvt</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+    <servlet-name>LoginSvt</servlet-name>
+    <url-pattern>/LoginSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>MessageSvt</servlet-name>
+    <url-pattern>/MessageSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReplySvt</servlet-name>
+    <url-pattern>/ReplySvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RegisterSvt</servlet-name>
+    <url-pattern>/RegisterSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>UserSvt</servlet-name>
+    <url-pattern>/UserSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>PublishSvt</servlet-name>
+    <url-pattern>/PublishSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CommentSvt</servlet-name>
+    <url-pattern>/CommentSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LogoutSvt</servlet-name>
+    <url-pattern>/LogoutSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DelSvt</servlet-name>
+    <url-pattern>/DelSvt</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>editUserSvt</servlet-name>
+    <url-pattern>/editUserSvt</url-pattern>
+  </servlet-mapping>
+	<welcome-file-list>
+		<welcome-file>login.jsp</welcome-file>
+	</welcome-file-list>
+</web-app>
